@@ -36,6 +36,9 @@
                                 <state key="normal" title="Calculate the years">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateCatYears:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lcC-eY-qLR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="50 years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nX-c4-PKd">
                                 <rect key="frame" x="25" y="120" width="364" height="295.5"/>

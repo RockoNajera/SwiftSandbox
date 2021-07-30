@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-	override func viewDidLoad() {
+    @IBOutlet weak var catYearsLabel: UILabel!
+    
+    @IBOutlet weak var catAgeTextfield: UITextField!
+    
+    
+    override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
 
-
+    @IBAction func calculateCatYears(_ sender: Any) {
+    }
+    
+    
 }
 
