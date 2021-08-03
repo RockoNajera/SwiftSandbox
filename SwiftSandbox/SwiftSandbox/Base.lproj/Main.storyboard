@@ -66,6 +66,10 @@
                             <constraint firstItem="3cv-Vv-Rfc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wQH-65-kxQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="catAgeTextfield" destination="3cv-Vv-Rfc" id="T60-Hs-VzC"/>
+                        <outlet property="catYearsLabel" destination="7nX-c4-PKd" id="GVy-bT-UCr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

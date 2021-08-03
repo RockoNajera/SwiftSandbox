@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     @IBAction func calculateCatYears(_ sender: Any) {
     }
     
-    
+    func calculateCatAge() {
+        
+    }
 }
 
