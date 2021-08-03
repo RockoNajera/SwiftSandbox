@@ -67,7 +67,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="catAgeTextfield" destination="3cv-Vv-Rfc" id="T60-Hs-VzC"/>
+                        <outlet property="catAgeTextField" destination="3cv-Vv-Rfc" id="T60-Hs-VzC"/>
                         <outlet property="catYearsLabel" destination="7nX-c4-PKd" id="GVy-bT-UCr"/>
                     </connections>
                 </viewController>
