@@ -22,8 +22,10 @@ class ViewController: UIViewController {
     @IBAction func calculateCatYears(_ sender: Any) {
         // 1. Here you should call the function
         // 2. You should get the param age from the textfield, get it this way catAgeTextField.text
+        guard let catAgeTextFieldNotNil = catAgeTextField.text else { return }
+        calculateCatAge(age: catAgeTextFieldNotNil)
+       
 
-        
     }
     
     // 1. Cast it to a integer (so you can use it later), cast it like this Int(valueToCast)
@@ -32,6 +34,9 @@ class ViewController: UIViewController {
     // 4. Assign it to the catYearsLabel, like this catYearsLabel.text = value
     // 5. Congrats you done
     func calculateCatAge(age: String) {
+        guard let ageAsInt: Int = Int(age) else { return }
+        let catAge: Int = ageAsInt * 7
+        catYearsLabel.text = "\(catAge)" + " years"
         
     }
 }
